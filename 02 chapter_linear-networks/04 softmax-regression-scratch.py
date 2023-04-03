@@ -154,7 +154,7 @@ if __name__ == '__main__':
                 self.axes[0].plot(x, y, fmt)
             self.config_axes()
             display.display(self.fig)
-            d2l.plt.draw();
+            d2l.plt.draw()
             d2l.plt.pause(0.001)
             display.clear_output(wait=True)
 
